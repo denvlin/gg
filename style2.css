@@ -1,0 +1,15 @@
+html{
+  font-family: 微軟正黑體;
+  background: url(bg.jpg);
+  background-size: 100% auto ;
+  background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+  color: #FFFFFF;
+}
+.tt h1{
+    font-size: 20px;
+    color: #00FFCC
+
+}
