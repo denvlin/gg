@@ -1,6 +1,6 @@
 html{
   font-family: 微軟正黑體;
-  background: url(bg.jpg);
+  background: url(bg2.png);
   background-size: 100% auto ;
   background-repeat: no-repeat;
             background-attachment: fixed;
@@ -9,7 +9,27 @@ html{
   color: #FFFFFF;
 }
 .tt h1{
-    font-size: 20px;
-    color: #00FFCC
-
+    
+    font-size: 18px;
+    color:#007799
+        
 }
+.print{
+    width:250px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: dy 3s steps(60, end) infinite;
+    animation: dy 3s steps(50, end) infinite;
+}
+@-webkit-keyframes dy{
+    from { width: 0;}
+}
+@keyframes dy{
+    from { width: 0;}
+}
+    
+    
+    
+    
+}
+
